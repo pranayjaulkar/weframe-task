@@ -43,7 +43,7 @@ export const TopArticles: React.FC<TopArticlesProps> = () => {
   ];
   return (
     <div className="flex flex-col">
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between pb-12 items-center">
         <h2 className="text-2xl">Top Articles</h2>
         <span className="text-violet-primary">See all</span>
       </div>
@@ -107,9 +107,11 @@ export const TopArticles: React.FC<TopArticlesProps> = () => {
               ))}
             </div>
             <div className="flex items-center">
-              <Button className="grow">View</Button>
-              <div className="w-8 h-8">
-                <MoreHorizontal />
+              <button className="p-4  text-lg font-semibold bg-violet-secondary rounded-md text-violet-primary grow">
+                View
+              </button>
+              <div className="p-4">
+                <MoreHorizontal className="w-8 h-8" />
               </div>
             </div>
           </div>
