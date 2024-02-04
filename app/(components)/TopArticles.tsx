@@ -42,12 +42,12 @@ export const TopArticles: React.FC<TopArticlesProps> = () => {
     },
   ];
   return (
-    <div className="flex flex-col">
-      <div className="flex justify-between pb-12 items-center">
+    <div className="flex flex-col pb-12">
+      <div className="flex justify-between pb-8 items-center">
         <h2 className="text-2xl">Top Articles</h2>
         <span className="text-violet-primary">See all</span>
       </div>
-      <div className="flex justify-around items-center space-x-4 p-4">
+      <div className="flex justify-around items-center space-x-4 p-4 ">
         {articles.map((article) => (
           <div
             key={article.title}

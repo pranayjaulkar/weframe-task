@@ -5,10 +5,10 @@ import Navbar from "@/app/(components)/Navbar";
 
 export default function Home() {
   return (
-    <main>
-      <Navbar />
-      <div className="flex">
-        <Sidebar />
+    <main className="flex">
+      <Sidebar />
+      <div className="flex flex-col">
+        <Navbar />
         <Dashboard />
       </div>
     </main>

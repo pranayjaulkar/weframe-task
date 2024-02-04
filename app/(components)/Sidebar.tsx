@@ -25,7 +25,7 @@ export const Sidebar: React.FC<SidebarProps> = () => {
     { icon: Settings, name: "Settings" },
   ];
   return (
-    <div className="lg:w-[15%] px-8 flex justify-center flex-col h-full">
+    <div className="lg:w-[15%] pt-16 px-8 flex justify-center flex-col h-full">
       <div className="flex w-full  p-4 mb-8 items-center space-x-2">
         <HomeIcon />
         <span>Dashboard</span>

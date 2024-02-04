@@ -17,7 +17,7 @@ export const Dashboard: React.FC<DashboardProps> = () => {
     { name: "Advertisements", info: "928 New Updates", icon: AdIcon },
   ];
   return (
-    <div className="lg:w-[80%] h-full">
+    <div className="w-full h-full">
       <div className="py-8 px-4 flex justify-start items-center">
         <div className="flex flex-col space-y-2 ">
           <h2 className="text-4xl">Hello Admin</h2>
